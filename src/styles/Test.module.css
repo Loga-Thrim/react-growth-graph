@@ -1,0 +1,50 @@
+.container {
+  width: 50%;
+  height: 510px;
+  background: red;
+  box-sizing: border-box;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container div {
+  width: 80%;
+  height: 40px;
+  background: white;
+  position: absolute;
+  transition: 2s;
+}
+
+.container .bar0 {
+  background: blue;
+}
+.container .bar1 {
+  background: pink;
+}
+.container .bar2 {
+  background: orange;
+}
+.container .bar3 {
+  background: white;
+}
+.container .bar4 {
+  background: black;
+}
+.container .bar5 {
+  background: green;
+}
+.container .bar6 {
+  background: lightblue;
+}
+.container .bar7 {
+  background: gray;
+}
+.container .bar8 {
+  background: purple;
+}
+.container div.bar9 {
+  background: yellow;
+}
